@@ -231,15 +231,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
-/* .banner {
+.banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/banner-bg.png'); /* bg */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.banner .tagline {
+.banner .tagline { /* about text */
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -264,7 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
-.banner button {
+.banner button { /* let's connect */
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -275,7 +275,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button svg {
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 10px; /* due to arrow moving to the right */
   transition: 0.3s ease-in-out;
   line-height: 1;
 }

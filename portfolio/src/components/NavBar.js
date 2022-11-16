@@ -7,14 +7,14 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
-    const [scrolled, seScrolled] = useState(false); // tracks if user scrolled to set banner to black
+    const [scrolled, setScrolled] = useState(false); // tracks if user scrolled to set banner to black
 
     useEffect(() => {
         const onScroll = () => {
             if(window.scrollY > 50){
-                seScrolled(true);
+                setScrolled(true);
             } else{
-                seScrolled(false);
+                setScrolled(false);
             }
         }
 
